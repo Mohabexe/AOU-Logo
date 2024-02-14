@@ -1,0 +1,37 @@
+.big, .bar1, .bar2, .bar3{
+    margin: 0;
+    padding: 0;
+}
+.bar1, .bar2, .bar3{
+    background-color: #fff;
+}
+.big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #002D58; 
+    width: 500px;
+    height: 747px;
+    border-radius: 300px 300px 0 0;
+}
+.bar1{
+    width: 221px;
+    height: 91px;
+    position: absolute;
+    top: 325px;
+    left: 239px;
+}
+.bar2{
+    width: 304px;
+    height: 91px;
+    position: absolute;
+    top: 476px;
+    left: 156px;
+}
+.bar3{
+    width: 404px;
+    height: 91px;
+    position: absolute;
+    top: 620px;
+}
